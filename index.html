@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><h1>Tablas y filas</h1>
+
+    <table border="1px">
+        <tr>
+            <th>Nombre</th>
+            <td>Apellido</td>
+            <td>Correo</td>
+        </tr>
+            <td>Fannya</td>
+            <td>Garcia</td>
+            <td>steffanyscode30@gmail.com</td>
+
+        <tr> </tr>
+
+        <tr>  </tr>
+
+    </table>
+
+    <br>
+    <hr>
+
+    <h2>Formualrios</h2>
+
+    <form action="archivo que procesa los datos.php">
+
+        <!--Atributos aceptados por el input de texto: value, requiered, disable, name -->
+        <label for="nombre de usuario">Nombre:</label>
+        <input name="nombre de usuario" type="text" placeholder="Nombre" required>
+
+        <br><br>
+
+
+        <label for="correo">Email:</label>
+        <input name="correo" type="email" placeholder="email" required>
+
+        <br><br>
+
+
+        <label for="password">Email:</label>
+        <input name="password" type="password" placeholder="contraseña" required>
+
+        <!-- Text area  -->
+        <label for="comentarios"></label>
+        <br>
+        <textarea name="comentarios" rows="6" cols="50"></textarea>
+
+        <!-- Select -->
+         <label for="sabores"> sabores</label>   
+         <br>
+         <select name="sabores">
+            <option aria-valuetext="select disable"</option>
+            <option value="vainilla"></option>
+            <option value="chocolate"></option>
+            <option value="fresa">fresa</option>
+
+        </select>   
+
+        <br><br>
+        <!-- Radio-->
+         <label for="genero">Genero</label>
+         <br>
+         <input type="radio" name="genero"> masculino
+         <input type="radio" name="genero"> Femenino
+
+         <br><br>
+         <!-- Checkbox-->
+
+         <label for="terminos">Aceptar nuestros terminos y condiciones</label>
+         <br>
+         <input type="checkbox"> Si
+
+
+         <br><br>
+        <!-- Enviar / submit -->
+        <button type="submit">Enviar</button>
+        
+        
+        <br><br>
+
+
+
+    </form>
+
+    
+</body>
+</html>
